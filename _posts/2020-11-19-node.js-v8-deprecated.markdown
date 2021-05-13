@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Node.js 8 (deprecated as of June 8, 2020)"
+date:   2020-11-19 07:02:39 +0530
+categories: Firebase Update
+---
+
+The thing I want to write in this post is this chunk of text.
+
+>  - Node.js 8 (deprecated as of June 8, 2020) Deployment of Node.js 8 functions will no longer be allowed after February 15, 2021. Then, executions of already-deployed Node.js 8 functions will stop after March 15, 2021. If you have deployed functions to the Node.js 8 runtime, you're recommended to upgrade to the Node.js 10 runtime.
+
+This chunk of text is in docs of Firebase. If you wanna read on webpage [click here](https://firebase.google.com/docs/functions/manage-functions#set_runtime_options)
+
+The think is I'm not a big dev so I'm working hard to make my app forest work. But the Firebase dev wanna to stop the spark pack and kill the life-line. This is very bad thing. In recent year google has killed many projects in the last year. Like in 2021 they are killing the unlimited storage of Google Photos. I don't wanna say anything about google they are big people but seriously. Please don't don't kill us. ~~I don't wanna include a donation button on this page.~~ 
+
+I just wanna say to google please don't do this. You guys are killing the small Devs who can't pay.

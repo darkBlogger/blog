@@ -1,73 +1,13 @@
-# The Site Configuration
-
-# Import the theme
-theme: jekyll-theme-chirpy
-
-# Only if your site type is GitHub Project sites and doesn't have a custom domain,
-# change below value to '/projectname'.
-baseurl: ''
-
-# the HTML language tag › https://www.w3.org/International/questions/qa-choosing-language-tags
-lang: en-US
-
-# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
-
-# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-# --------------------------
-title: Chirpy                          # the main title
-
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
-
-description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
-
-# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
-
-github:
-  username: github_username             # change to your github username
-
-twitter:
-  username: twitter_username            # change to your twitter username
-
-social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@doamin.com             # change to your email address
-  links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
-
-google_site_verification: google_meta_tag_verification # change to your verification string
-# --------------------------
-
-google_analytics:
-  id: ''              # fill in your Google Analytics ID
-  # Google Analytics pageviews report settings
-  pv:
-    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
-    cache_path:       # the local PV cache data, friendly to visitors from GFW region
-
-# Prefer color scheme setting.
-#
-# Note: Keep empty will follow the system prefer color by default,
-# and there will be a toggle to switch the theme between dark and light
-# on the bottom left of the sidebar.
-#
-# Available options:
-#
-#     light  - Use the light color scheme
-#     dark   - Use the dark color scheme
-#
-theme_mode:   # [light|dark]
+title: darkBlogger
+email: insidedarkpit@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Blogs that **you** need.
+  Here you will find tech, AI, Cloud. And anything which impact you as a developer.
+baseurl: "" # the subpath of your site, e.g. /blog
+tagline: A blog that you need.
+url: "https://blog.darkraspberry.ga"
+github_username:  darkRaspberry
+twitter_username: devRaspberry
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -77,16 +17,32 @@ theme_mode:   # [light|dark]
 img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/commons/avatar.jpg
+avatar: /assets/img/favicon.png
 
 # boolean type, the global switch for ToC in posts.
-toc: true
+toc: true # Table of contents
 
-disqus:
-  comments: false  # boolean type, the global switch for posts comments.
-  shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+paginate: 5
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+github:
+  username: darkRaspberry             # change to your github username
 
-paginate: 10
+twitter:
+  username: devRaspberry
+
+social:
+# Change to your full name.
+# It will be displayed as the default author of the posts and the copyright owner in the Footer
+name: Abhay Kumar Verma
+email: insidedarkpit@gmail.com             # change to your email address
+links:
+  # The first element serves as the copyright owner's link
+  - https://twitter.com/devRaspberry      # change to your twitter homepage
+  - https://github.com/darkRaspberry       # change to your github homepage
+
 
 # ------------ The following options are not recommended to be modified ------------------
 
@@ -142,19 +98,10 @@ compress_html:
   endings: all
   profile: false
   blanklines: false
-  ignore:
-    envs: [development]
 
 exclude:
-  - '*.gem'
-  - '*.gemspec'
-  - tools
-  - docs
   - README.md
   - LICENSE
-  - gulpfile.js
-  - node_modules
-  - '*.json'
 
 jekyll-archives:
   enabled: [categories, tags]
