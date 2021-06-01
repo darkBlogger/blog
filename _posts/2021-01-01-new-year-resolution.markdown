@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Happy New Year"
-date:   2021-01-01 14:58:35 +0530
+date: 2021-01-01 14:58:35 +0530
 categories: Blog Event
 ---
  

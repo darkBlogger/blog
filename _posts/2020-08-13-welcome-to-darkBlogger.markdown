@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Welcome to darkBlogger!"
-date:   2020-08-13 02:57:08 +0530
+title: "Welcome to darkBlogger!"
+date: 2020-08-13 02:57:08 +0530
 categories: Blog Update
 ---
  "SO hello guys this is first blog ......"

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "How good is to be a seeder?"
-date:   2021-01-07 22:17:23 +0530
+title: "How good is to be a seeder?"
+date: 2021-01-07 22:17:23 +0530
 categories: Torrent Seeders
 ---
 

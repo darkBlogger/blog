@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Forest! A new hobby."
-date:   2020-11-09 00:32:39 +0530
+title: "Forest! A new hobby."
+date: 2020-11-09 00:32:39 +0530
 categories: Forest Update
 ---
 

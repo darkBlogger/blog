@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Privacy matters?"
-date:   2021-01-09 19:22:23 +0530
+title: "Privacy matters?"
+date:  2021-01-09 19:22:23 +0530
 categories: Developing Privacy
 ---
 A clear answer is a yes!. But real question is "How much?"

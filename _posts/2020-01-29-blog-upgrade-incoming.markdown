@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Incoming upgrade! 🎉 "
-date:   2020-12-25 12:48:02 +0530
+title: "Incoming upgrade! 🎉 "
+date: 2020-12-25 12:48:02 +0530
 categories: Blog Update
 ---
 

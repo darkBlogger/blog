@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "How much AI is good?"
-date:   2020-12-25 12:48:02 +0530
+title: "How much AI is good?"
+date: 2020-12-25 12:48:02 +0530
 categories: Developing Environment
 ---
 ## Are we slave of Tech?!
