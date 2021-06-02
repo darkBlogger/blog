@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Linux!"
+title: "What's wrong with Linux!"
 date: Tuesday 01 June 2021 07:21:20 PM IST
 categories: linux open-source
 tags: linux
