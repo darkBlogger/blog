@@ -8,7 +8,9 @@ tagline: A blog that you need.
 url: "https://blog.darkraspberry.ga"
 github_username:  darkRaspberry
 twitter_username: devRaspberry
-
+lang: en-US
+content_lang: ''
+timezone: Asia/Kolkata
 # Notice that once it is assigned, the CDN url
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 # e.g. 'https://cdn.com'
@@ -107,3 +109,6 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+# Outdated configuration warning
+outdated: '-- Missing configuration options! --'
