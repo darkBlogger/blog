@@ -6,7 +6,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 tagline: A blog that you need.
 url: "https://blog.darkraspberry.ga"
-github_username:  darkRaspberry
+github_username: darkRaspberry
 twitter_username: devRaspberry
 lang: en
 content_lang: ''
@@ -60,7 +60,6 @@ collections:
     output: true
     sort_by: order
 
-
 defaults:
   -
     scope:
@@ -98,8 +97,13 @@ compress_html:
   blanklines: false
 
 exclude:
+  - '*.gem'
+  - docs
   - README.md
   - LICENSE
+  - gulpfile.js
+  - node_modules
+  - package*.json
 
 jekyll-archives:
   enabled: [categories, tags]
