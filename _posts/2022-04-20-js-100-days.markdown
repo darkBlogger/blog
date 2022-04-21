@@ -3,7 +3,7 @@ layout: post
 title: Day 1 - 100 Days Of JS
 date: 20 April 2022 04:09:50 PM IST
 categories: Developing JS
-tags: javascript 100DayOfJS
+tags: javascript 100DayOfCode
 ---
 
 ## Hi 👋
